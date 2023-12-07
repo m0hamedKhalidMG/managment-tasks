@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+  --primary-color: #0DFF92;
+  --light-color: #f0f0f0;
+
+}
+
+body, html{
+  height: 100%;
+  background-color:#0c0c0c
+
+}
+
+* > *{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.sidebar{
+  overflow: hidden;
+  background: #2a2a2b;
+  position: fixed;
+  z-index: 1;
+  color: #fff;
+  height: 100vh;
+  width: 200px;
+  transition: all 0.5s;
+  text-decoration: none;
+
+}
+.top_section{
+  display: flex;
+  align-items:center;
+  padding:20px 15px;
+}
+.logo{
+  font-size: 30px;
+}
+.bars:hover{
+  cursor: pointer;
+}
+
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-left: 50px;
+}
+.link{
+  display: flex;
+  color: #d8d0d0;
+  padding: 10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+  text-decoration: none;
+
+}
+.link:hover{
+  background:rgb(81, 81, 82);
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.icon{
+  font-size: 25px;
+}.link_text{
+  font-size: 20px;
+}
+
+
+._card{
+  background: #2a2a2b;
+
+}
+.containe {
+  min-height: 100vh; 
+  border: 2px solid #212122; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 20px; 
+  border-radius: 20px; 
+  justify-content: center;
+}
+.link_text:hover{
+  cursor: pointer;
+}
+
+.add-new-button {
+
+  display: flex;
+  float: right;
+  margin-right: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #4caf50; /* Change the background color as needed */
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #2980b9; /* Change the hover background color as needed */
+  }
+}
+
+.add-new-icon {
+  color: #ffffff; /* Change the icon color as needed */
+  font-size: 24px; /* Change the icon size as needed */
+}
+.custom-dropdown:hover {
+  background-color: #e0e0e0; /* Background color on hover */
+}
